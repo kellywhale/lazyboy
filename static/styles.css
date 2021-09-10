@@ -18,7 +18,11 @@ p {line-height: 2;}
 
 nav {
     background-color: black;
-    height: 4rem;
+    height: 10%;
+}
+
+.nav_link {
+    font-size: 2rem;
 }
 
 #title {
@@ -44,6 +48,7 @@ nav {
     .name {
         padding-top: 20%;
          color: white;
+        font-size: 600%;
     }
 }
 
@@ -84,6 +89,12 @@ nav {
     padding-bottom: 2%;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1028px) {
+    .feature-title {
+        font-size: 1.5rem;
+    }
 }
 
 .effect-image {
