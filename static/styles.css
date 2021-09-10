@@ -1,0 +1,170 @@
+
+body {
+    background-color: #1d1d1d;
+    margin: 0;
+    }
+
+h1 {
+    color: #66BFBF;
+    font-size : 3rem;
+    margin:  0 0 5%;
+    }
+
+h3 {line-height: 2;}
+
+p {line-height: 2;}
+
+
+
+nav {
+    background-color: black;
+    height: 4rem;
+}
+
+#title {
+    background-image: url('workspace-medium.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+
+.name {
+    padding-bottom: 2rem;
+    font-size: 450%;
+    margin: 2% 20%;
+    padding-top: 10%;
+    font-family: 'Sacramento', cursive;
+}
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+
+    .name {
+        padding-top: 20%;
+         color: white;
+    }
+}
+
+.backend {
+  color: #66FCF1;
+  font-size: 150%;
+  margin: 0 20% 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.contact_button {
+     margin: 2% 20% 7%;
+}
+
+/* section 2 */
+#about {
+  padding: 5% 5% 0;
+}
+
+
+@media (max-width: 1028px){
+    #about{
+        text-align: center;
+    }
+
+}
+
+.about-picture {
+    height: 50%;
+    width: 50%;
+    margin: 7% 7% 0;
+    padding: 0;
+}
+
+.feature-title {
+    color: #fff;
+    padding-bottom: 2%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.effect-image {
+    width: 100%;
+}
+
+#skills {
+    background-color: #dcdcdc;
+    text-align: center;
+}
+
+.skill-header {
+    margin: 7% 0;
+    text-decoration: underline;
+}
+
+.skill-picture {
+  height: 70%;
+  width: 70%;
+  position: relative;
+  opacity: 0.5;
+}
+
+.skill-picture:hover {
+  opacity: 1.0;
+  width: 80%;
+}
+
+
+#contact {
+    color: white;
+    padding: 5% 5% 0;
+}
+
+
+
+.contact-element {
+    background-color: #dcdcdc;
+    color:black;
+     width: 80%;
+     margin-bottom: 2%;
+     padding: 0.5%;
+}
+
+
+.contact-header {
+    margin-bottom: 2%;
+}
+
+@media (max-width: 1028px){
+        #contact {
+            text-align: center;
+        }
+       .contact-element{
+        width: 70%;
+        margin-bottom: 2%;
+       }
+       .contact-text{
+       margin: 0 10%;
+       }
+}
+
+.contact-picture {
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    top: 25%;
+    bottom: 25%;
+}
+
+.contact-picture:hover {
+  width: 60%;
+  transform: rotate(10deg);
+}
+
+#footer {
+ text-align: center;
+ background-color: black;
+}
+
+.icon {
+    color: #66BFBF;
+    margin: 1.5%;
+}
