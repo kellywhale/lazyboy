@@ -136,6 +136,11 @@ p {line-height: 2;}
      padding: 0.5%;
 }
 
+.contact-message {
+    background-color: #dcdcdc;
+    color:black;
+    width: 100%;
+}
 
 .contact-header {
     margin-bottom: 2%;
