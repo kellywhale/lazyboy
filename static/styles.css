@@ -42,7 +42,7 @@ p {line-height: 2;}
     .name {
         padding-top: 20%;
          color: white;
-        font-size: 600%;
+        font-size: 800%;
     }
 }
 
@@ -81,16 +81,16 @@ p {line-height: 2;}
 .feature-title {
     color: #fff;
     padding-bottom: 2%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 480px) {
     .feature-title {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .about-header {
-        font-size: 5rem;
+        font-size: 6rem;
     }
 }
 
@@ -147,7 +147,7 @@ p {line-height: 2;}
         }
        .contact-element{
         width: 100%;
-        height: 10rem;
+        height: 20rem;
         margin-bottom: 3%;
        }
        .contact-text{
@@ -175,5 +175,5 @@ p {line-height: 2;}
 
 .icon {
     color: #66BFBF;
-    margin: 5%;
+    margin: 10%;
 }
