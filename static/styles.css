@@ -131,8 +131,8 @@ p {line-height: 2;}
 .contact-element {
     background-color: #dcdcdc;
     color:black;
-     width: 80%;
-     margin-bottom: 2%;
+     width: 100%;
+     margin-bottom: 3%;
      padding: 0.5%;
 }
 
@@ -145,12 +145,9 @@ p {line-height: 2;}
         #contact {
             text-align: center;
         }
-       .contact-element{
-        width: 100%;
-        margin-bottom: 3%;
-       }
+
        .contact-without-message {
-         height: 20rem;
+         height: 30rem;
        }
        .contact-text{
        margin: 0 10%;
