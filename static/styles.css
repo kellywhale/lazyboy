@@ -34,7 +34,7 @@ p {line-height: 2;}
     font-family: 'Sacramento', cursive;
 }
 
-@media (max-width: 480px){
+@media (max-width: 	1242px){
     #title {
         text-align: center;
     }
@@ -64,7 +64,7 @@ p {line-height: 2;}
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 	1242px){
     #about{
         text-align: center;
     }
@@ -81,11 +81,11 @@ p {line-height: 2;}
 .feature-title {
     color: #fff;
     padding-bottom: 2%;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 	1242px) {
     .feature-title {
         font-size: 4rem;
     }
@@ -141,14 +141,16 @@ p {line-height: 2;}
     margin-bottom: 2%;
 }
 
-@media (max-width: 480px){
+@media (max-width: 	1242px){
         #contact {
             text-align: center;
         }
        .contact-element{
         width: 100%;
-        height: 20rem;
         margin-bottom: 3%;
+       }
+       .contact-without-message {
+         height: 20rem;
        }
        .contact-text{
        margin: 0 10%;
@@ -175,5 +177,6 @@ p {line-height: 2;}
 
 .icon {
     color: #66BFBF;
-    margin: 10%;
+    margin: 5%;
+    padding: 0 10% 0;
 }
