@@ -81,18 +81,9 @@ p {line-height: 2;}
 .feature-title {
     color: #fff;
     padding-bottom: 2%;
-    font-size: 0.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 	1242px) {
-    .feature-title {
-        font-size: 4rem;
-    }
-    .about-header {
-        font-size: 6rem;
-    }
-}
 
 .effect-image {
     width: 100%;
@@ -177,5 +168,4 @@ p {line-height: 2;}
 .icon {
     color: #66BFBF;
     margin: 5%;
-    padding: 0 10% 0;
 }
