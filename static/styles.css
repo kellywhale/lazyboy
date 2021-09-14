@@ -15,10 +15,6 @@ h3 {line-height: 2;}
 p {line-height: 2;}
 
 
-.coo {
-    background-color: black;
-}
-
 @media (max-width: 	1242px){
     .nav-text {
     font-size: 3rem;
