@@ -12,7 +12,6 @@ year = datetime.datetime.now().year
 def home():
     if request.method == 'POST':
         data = request.form
-        print(data["yourName"])
         costumer_care = NotificationManager()
         costumer_care.send_email(data["yourName"], data["yourEmail"], data["yourMessage"])
         return render_template('index.html', current_year=year, mgs_sent=True)

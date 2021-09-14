@@ -15,9 +15,10 @@ class NotificationManager:
             connection.sendmail(
                 from_addr=MY_EMAIL,
                 to_addrs='lazyboyprogrammer@gmail.com',
-                msg=f"Subject: Gig From Website {datetime.datetime.today()} {name} \n"
+                msg=f"Subject: Gig From Website {datetime.datetime.today()} {name} {email} {message} \n"
                     f"Name: {name} \n"
                     f"email: {email}\n"
                     f"Message: {message}"
             )
+
 
